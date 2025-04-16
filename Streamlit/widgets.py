@@ -20,3 +20,6 @@ st.write(f"Your favorite programming language is {yourFavLanguage}. Good choice!
 # upload a file (CSV, Excel, or image)
 uploaded_file = st.file_uploader("Upload your resume", type=["csv", "xlsx", "png", "jpg"])
 
+
+# Button to submit the form
+st.button("Submit")
