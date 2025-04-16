@@ -25,4 +25,4 @@ uploaded_file = st.file_uploader("Upload your resume", type=["csv", "xlsx", "png
 st.button("Submit")
 
 
-# for more such interactive elements, you can check out streamlit.io    
+# for more such interactive elements, you can check out streamlit.io        
