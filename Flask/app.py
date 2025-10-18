@@ -8,6 +8,7 @@ Creates an instance of the Flask class,
 which is the WSGI application.
 (Basic UI for the web application)
 '''
+# create the Flask application object (named "app")
 app = Flask(__name__)   # wsgi application
 
 
@@ -16,7 +17,8 @@ app = Flask(__name__)   # wsgi application
 def welcome():
     return 'Hello World! This is the home page of the Flask application.'
 
-@app.route('/index')
+@app.route('/index') # another route named index
+# function to return the response for /index route
 def index():
     return 'This is the index page of the Flask application.'
 
